@@ -20,9 +20,8 @@ php -r "file_exists('database/database.sqlite') || touch('database/database.sqli
 php artisan migrate:refresh --seed
 ```
 
-```
-php artisan conduit:install
-```
+
+Now follow the normal [installation guide for RapidSaaS Conduit here](https://rapidsaas.dev/docs/getting-started/installation)
 
 ---
 
